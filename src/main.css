@@ -1,0 +1,74 @@
+
+.time-setting-wrapper{
+  display: flex;
+}
+input{
+  margin-right: 5px;
+  width:40px;
+}
+.minuteBox {
+  margin-right: 15px;
+}
+
+.timer-circle {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.timer-circle svg {
+  width: 100%;
+  height: 100%;
+}
+
+.timer-circle circle {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+.timer-circle .timer-progress {
+  
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 52% 50%;
+  transition: stroke-dashoffset 0.35s;
+}
+.timer-circle .timer-progress.green {
+  stroke: #4CAF50;
+}
+.timer-circle .timer-progress.yellow {
+  stroke: #e5e952;
+}
+.timer-circle .timer-progress.red {
+  stroke: #f14a4a;
+}
+text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.control-box{
+  display: flex;
+}
+
+.control-box button{
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.action{
+  background-color: #008CBA; 
+}
+.reset{
+  background-color: #008CBA; 
+}
