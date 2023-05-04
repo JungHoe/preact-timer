@@ -1,4 +1,6 @@
 # Simple-Timer
+<img src="https://user-images.githubusercontent.com/51188350/236114650-ef12c4ae-b1ae-4661-99cf-82f9c5814f30.gif" alt="preview" width="300"
+ height="300">
 
 GPT 에게 개발을 시켰다. ~~(문법 틀려도 알아서 해석해줌 ㄷㄷ)~~
 ```
@@ -22,6 +24,7 @@ please change this code to typescript
 
  * E북으로 책읽다 자꾸 집중력이 흐트러져서 5분만 버텨보자 해서 만듬
    *  ~~하다보면 집중력이 늘지않을까 ㅇㅅㅇ;~~
+ * build 하여 Chrome extention 에 적용 가능 
 
 
 ## 🌱 Insight
