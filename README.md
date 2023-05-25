@@ -19,7 +19,7 @@ and when timer's status is "start" can 't edit and time is decrease
 please change this code to typescript
 ```
 
-## 🕹 Toy?
+## 🕹 Why 
 
 
  * E북으로 책읽다 자꾸 집중력이 흐트러져서 5분만 버텨보자 해서 만듬
@@ -33,6 +33,10 @@ please change this code to typescript
   * 요구사항을 더 명확하게 내리면 더 제대로된 코드가 나옴
     * 한글로 질문하는게 더 나을수도?
 * react -> [preact 변경시 svg 이슈](https://preactjs.com/guide/v8/differences-to-react/)
+  * preact가 react 의 완전한 대안이 되기는 좀 어려울듯(방향이 약간달라서...)
+
 ``` 
 Synthetic Events: Preact's browser support target does not require this extra overhead
 ``` 
+* [Chrome extention](https://support.google.com/chrome/a/answer/2714278?hl=ko) 대해 학습
+  * modal 처럼 동작할줄 알았는데 외부를 클릭하면 사라져버려서 개선이 좀 필요할것 같다.
